@@ -5,7 +5,7 @@ import Navbar from "./Navbar";
 const Header = () => {
   return (
     <div>
-      <Navbar isLoggedIn={true} name="Aqib" image="/logo-e.png" />
+      <Navbar isLoggedIn={false} name="User" image="/logo-e.png" />
     </div>
   );
 };
